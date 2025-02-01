@@ -63,8 +63,17 @@ This project leverages the computational power of GPUs to implement a highly eff
 
 ---
 
-## **How to Run**
+## **How to Run on Visual Studio**
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/pathak-pragnya/cuda-matrix-multiplication.git
    cd cuda-matrix-multiplication
+
+2. Delete the build and out folder
+3. Create an empty folder named build
+4. Run and configure CMAKE GUI to enable build
+5. pen Visual studio code and switch to solution explorer view
+6. Go to Quiz8.sln and right click and open
+7. Now select "Release" instead of "Debug" from the menubar
+8. Right click on quiz from the solution explorer and select build
+9. Run the program
